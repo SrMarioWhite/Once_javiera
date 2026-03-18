@@ -1,4 +1,4 @@
-## 1. Decisiones Semanticas
+## Decisiones Semanticas
 
 * **`<!DOCTYPE html>` e `<html lang="es">`**: Definen el estandar HTML5 y el idioma español para una correcta interpretacion del navegador.
 * **`<meta charset="UTF-8">` y `<meta viewport>`**: Garantizan la visualizacion de caracteres especiales y la adaptacion del diseño a pantallas de celulares.
@@ -10,9 +10,8 @@
 * **`<footer>` y `<address>`**: Definen el cierre del documento y marcan especificamente el correo electronico como informacion de contacto.
 * **`<time>`**: Permite que las maquinas y navegadores identifiquen una fecha especifica de forma precisa.
 
-## 2. Arbol DOM (Estructura Visual)
+## Arbol DOM (Estructura Visual)
 
-```text
 Document (html)
 ---Head (Metadatos y Configuracion)
 ---Body (Contenido Visible)
