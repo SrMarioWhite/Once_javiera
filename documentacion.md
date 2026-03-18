@@ -12,6 +12,7 @@
 
 ## Arbol DOM (Estructura Visual)
 
+```text
 Document (html)
 ---Head (Metadatos y Configuracion)
 ---Body (Contenido Visible)
