@@ -1,11 +1,11 @@
-# 📐 Análisis y desarrollo — Resumen
+# 📐 Analisis y desarrollo — Resumen
 
 ---
 
-## ¿Por qué importan el análisis y el diseño?
+## ¿Por que importan el analisis y el diseño?
 
 - **El 66% de los proyectos de software fracasan** por requerimientos mal definidos, no por problemas de programación.
-- **Análisis** = entender el problema (¿QUÉ se construye?)
+- **Analisis** = entender el problema (¿QUÉ se construye?)
 - **Diseño** = planear la solución (¿CÓMO se construye?)
 - **Regla del 1-10-100:** arreglar un error cuesta $1 en análisis, $10 en diseño, $100 en programación y $1000+ en producción.
 
@@ -15,7 +15,7 @@
 
 Las 6 fases que todo sistema recorre:
 
-1. **Análisis de Requerimientos** → Especificación de lo que el sistema debe hacer
+1. **Analisis de Requerimientos** → Especificación de lo que el sistema debe hacer
 2. **Diseño** → Arquitectura, diagramas, prototipos
 3. **Implementación** → Escritura del código
 4. **Pruebas** → Verificación y corrección de errores
@@ -36,15 +36,15 @@ Filosofía: **planificar todo desde el inicio**.
 | **Modelo en V** | Cada fase de desarrollo tiene su fase de pruebas correspondiente |
 | **Espiral** | Iteraciones con análisis de riesgos en cada vuelta |
 
-**Cuándo usarlas:** sistemas críticos (aviación, banca, salud), requerimientos fijos, proyectos regulados.
+**Cuando usarlas:** sistemas críticos (aviación, banca, salud), requerimientos fijos, proyectos regulados.
 
 ---
 
-## Metodologías Ágiles
+## Metodologías Agiles
 
 Filosofía: **adaptarse al cambio, entregar valor rápido**.
 
-Nacen en 2001 con el **Manifiesto Ágil**, que valora:
+Nacen en 2001 con el **Manifiesto Agil**, que valora:
 - Individuos e interacciones > procesos y herramientas
 - Software funcionando > documentación extensa
 - Colaboración con el cliente > negociación de contratos
