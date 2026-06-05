@@ -69,22 +69,7 @@ Nacen en 2001 con el **Manifiesto Ágil**, que valora:
 
 **Un buen requerimiento es SMART:** Específico, Medible, Alcanzable, Relevante y con Plazo.
 
-❌ Malo: *"El sistema debe ser seguro."*  
-✅ Bueno: *"Las contraseñas se almacenan con bcrypt; el sistema bloquea el acceso tras 5 intentos fallidos."*
+Malo: *"El sistema debe ser seguro."*  
+Bueno: *"Las contraseñas se almacenan con bcrypt; el sistema bloquea el acceso tras 5 intentos fallidos."*
 
 Los requerimientos se obtienen mediante entrevistas, encuestas, observación, talleres y prototipos.
-
----
-
-## Comparativa rápida
-
-| Criterio | Estructuradas | Ágiles |
-|----------|--------------|--------|
-| Cambios | Difíciles y costosos | Bienvenidos |
-| Cliente | Ve el producto al final | Participa constantemente |
-| Documentación | Extensa y formal | La mínima necesaria |
-| Mejor para | Sistemas críticos y regulados | Productos que evolucionan rápido |
-
----
-
-*Fuente: [javiera11.vercel.app](https://javiera11.vercel.app/analisis-diseno/uno-curso-analisis-diseno/index.html) · 2026*
