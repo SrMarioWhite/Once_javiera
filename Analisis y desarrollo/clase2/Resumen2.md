@@ -23,14 +23,23 @@ Toma todo esta parte para analizar que quiere el cliente, con los pasos anterior
 
 ## ✅ Características de un BUEN requerimiento
 
-* necesario si se quita el sistema no sirve para nada
-* no ambiguo es tan claro que todos lo entienden de la misma forma
-* verificable se puede probar para saber si se hizo bien o no
-* consistente no choca ni contradice a otra regla del proyecto
-* completo tiene toda la informacion y detalles importantes
-* atomico va al grano y contiene una sola idea a la vez
-* trazable se sabe de donde salio y que partes va a afectar
+* Necesario si se quita el sistema no sirve para nada
+* No ambiguo es tan claro que todos lo entienden de la misma forma
+* Verificable se puede probar para saber si se hizo bien o no
+* Consistente no choca ni contradice a otra regla del proyecto
+* Completo tiene toda la informacion y detalles importantes
+* Atomico va al grano y contiene una sola idea a la vez
+* Trazable se sabe de donde salio y que partes va a afectar
 
-# 2️⃣ 🔧 Requerimientos Funcionales
+# 2️⃣ 🔧 Requerimientos Funcionales.
 
-Es cuando 
+Son los requerimientos que son los que opera el sistema, los que hacen acciones concretas, tareas, cálculos o respuestas que el software debe ejecutar ante cosas específicas.
+
+Se busca como verbos de accion, entrada y salida de datos, decisiones logicas y los roles del usuario.
+
+##  La plantilla estandar.
+
+Es el orden que el sistema por defecto debe de actuar.
+- Accion/Verbo.
+- Funcionalidad.
+- 
