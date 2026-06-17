@@ -42,4 +42,5 @@ Se busca como verbos de accion, entrada y salida de datos, decisiones logicas y 
 Es el orden que el sistema por defecto debe de actuar.
 - Accion/Verbo.
 - Funcionalidad.
-- 
+- Decisiones.
+- Roles.
