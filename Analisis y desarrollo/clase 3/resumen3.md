@@ -1,43 +1,43 @@
-# Resumen de la Clase 2: Requerimientos de Software
+# Resumen de la Clase 3: Elicitacion de Requerimientos
 
-## Modulo 1: Profundizacion del Concepto
-* Definicion formal (IEEE 830): Propiedad documentada y declaracion verificable que resuelve problemas u objetivos.
-* Escalera de Abstraccion:
-  1. Necesidad del usuario: Informal y emocional.
-  2. Requerimiento del sistema: Formal y documentado.
-  3. Especificacion tecnica: Detalle muy tecnico.
-* Stakeholders: Identificacion de las fuentes y actores clave del sistema.
+## Modulo 1: Fundamentos de la Elicitacion
+* Concepto: Proceso de descubrir, comprender y extraer las necesidades reales de los usuarios y partes interesadas, mas alla de lo que simplemente dicen querer.
+* Desafio de comunicacion: Superar las barreras linguisticas y tecnicas entre el equipo de desarrollo y el cliente empresarial.
 
-## Modulo 2: Requerimientos Funcionales (RF)
-* Definicion: Describe el QUE hace el sistema.
-* Identificacion: Se dectectan mediante verbos de accion, entradas, salidas y condicionales.
-* Categorias comunes: CRUD (Crear, Leer, Actualizar, Borrar), inicios de sesion (Login) y generacion de reportes.
+## Modulo 2: Tecnicas Cualitativas - Entrevistas
+* Enfoque: Dialogo directo con stakeholders clave para profundizar en procesos complejos.
+* Tipos: Entrevistas estructuradas (con guion fijo) y no estructuradas (conversacionales), aprendiendo a realizar preguntas abiertas para evitar sesgos.
 
-## Modulo 3: Requerimientos No Funcionales (RNF)
-* Definicion: Describe el COMO se comporta el sistema bajo ciertas condiciones.
-* Categorias comunes: Seguridad, rendimiento, usabilidad y disponibilidad.
-* Regla esencial: Deben ser medibles mediante metricas precisas y umbrales. Implican compensaciones o trade-offs de diseno.
+## Modulo 3: Tecnicas Cuantitativas - Encuestas y Cuestionarios
+* Enfoque: Herramienta masiva para recopilar informacion de un gran volumen de usuarios finales.
+* Aplicacion: Diseno de preguntas cerradas y de opcion multiple para identificar patrones comunes, dolores recurrentes y expectativas del mercado.
 
-## Modulo 4: Atributos de Calidad (ISO 25010)
-* Definicion: Uso del estandar oficial ISO/IEC 25010 para evaluar la calidad del software.
-* Enfoque: Traducir conceptos abstractos de calidad en caracteristicas tecnicas evaluables dentro del sistema.
+## Modulo 4: Tecnicas de Contexto - Observacion Directa
+* Enfoque: El analista se traslada al entorno real donde se utilizara el software (shadowing).
+* Beneficios: Permite descubrir requerimientos ocultos o implicitos que el usuario olvida mencionar porque los tiene automatizados en su rutina diaria.
 
-## Modulo 5: Taller de Analisis de Necesidades
-* Caso practico: Simulacion orientada a un sistema de cafeteria escolar llamado SchoolEats.
-* Tecnicas aplicadas: Introduccion practica a herramientas de elicitacion como encuestas, entrevistas y observacion directa de los usuarios.
+## Modulo 5: Analisis de Viabilidad
+* Evaluacion triple: Analisis detallado antes de aprobar el proyecto:
+  1. Viabilidad Tecnica: Disponibilidad de tecnologia y capacidades del equipo.
+  2. Viabilidad Economica: Relacion costo-beneficio y presupuesto disponible.
+  3. Viabilidad Operativa: Capacidad de la organizacion para adoptar el nuevo sistema.
 
-## Modulo 6: Historias de Usuario
-* Enfoque Agil: Representan la perspectiva del usuario centrada en el valor del negocio.
-* Formula formal: Como [tipo de usuario] Quiero [accion o funcionalidad] Para [beneficio o objetivo].
-* Reglas INVEST: Las historias deben ser Independientes, Negociables, Valiosas, Estimables, Pequenas (Small) y Testeables.
-* Criterios de Aceptacion: Estructurados bajo el formato formal Dado / Cuando / Entonces (Given / When / Then).
+## Modulo 6: Juego de Roles Cliente-Analista
+* Dinamica: Ejercicio practico donde los estudiantes asumen roles contrapuestos (un cliente indeciso o dificil y un analista tecnico).
+* Objetivo: Desarrollar habilidades blandas, empatia y tecnicas de negociacion para extraer requerimientos claros ante escenarios ambiguos.
 
-## Modulo 7: Reto Integrador Final
-* Mision: Crear un mini-documento de requerimientos que aplique de manera practica todos los conocimientos adquiridos.
+## Modulo 7: Simulacion de Levantamiento de Informacion
+* Practica en vivo: Simulacion interactiva de una reunion de inicio de proyecto (Kick-off) para capturar necesidades tecnicas bajo presion de tiempo.
+* Registro: Uso de minutas y plantillas de toma de notas para estructurar los datos recopilados de inmediato.
+
+## Modulo 8: Priorizacion Inicial de Necesidades
+* Filtro de requerimientos: Clasificacion de las necesidades detectadas segun su urgencia y valor para el negocio.
+* Metodos de clasificacion: Separar lo critico (imprescindible para el lanzamiento) de lo deseable (mejoras secundarias).
+
+## Modulo 9: Reto de Aplicacion y Entregables
+* Mision: Disenar una estrategia de elicitacion completa para un caso de estudio real.
 * Entregables requeridos:
-  1. Contexto detallado del problema.
-  2. Identificacion de al menos 3 stakeholders con sus roles correspondientes.
-  3. Redaccion de 5 requerimientos funcionales usando una plantilla formal.
-  4. Redaccion de 3 requerimientos no funcionales medibles con metricas y umbrales.
-  5. Justificacion de 3 atributos de calidad criticos.
-  6. Creacion de 3 historias de usuario con sus criterios de aceptacion.
+  1. Matriz de stakeholders identificados.
+  2. Plan de elicitacion justificando que tecnica se aplicara a cada rol.
+  3. Guion de entrevista detallado con al menos 10 preguntas estrategicas.
+  4. Formato de encuesta digital disenada para los usuarios finales.
