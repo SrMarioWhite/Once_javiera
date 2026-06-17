@@ -1,10 +1,5 @@
 # Resumen de la Clase 2: Requerimientos de Software
 
-## Informacion General
-* Duracion: 3 horas y 45 minutos.
-* Estructura: 8 modulos que combinan teoria y practica.
-* Objetivo: Dominar requerimientos funcionales, no funcionales, atributos de calidad e historias de usuario.
-
 ## Modulo 1: Profundizacion del Concepto
 * Definicion formal (IEEE 830): Propiedad documentada y declaracion verificable que resuelve problemas u objetivos.
 * Escalera de Abstraccion:
