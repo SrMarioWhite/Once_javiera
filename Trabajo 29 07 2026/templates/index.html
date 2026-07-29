@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Autores</title>
+</head>
+<body>
+  <h1>Gestión de Autores</h1>
+
+  <!-- Consulta 1: Todos los autores -->
+  <h3>Ver Listado</h3>
+  <p><a href="/autores/html">Mostrar todos los autores</a></p>
+
+  <hr>
+
+  <!-- Consulta 2: Filtrar por año y país -->
+  <h3>Filtrar por Parámetros</h3>
+  <form method="get" action="/autores/html">
+    <label>Año de nacimiento:
+      <input type="number" name="year" required >
+    </label>
+    <label>País:
+      <input type="text" name="pais" required>
+    </label>
+    <button type="submit">Filtrar</button>
+  </form>
+
+  <hr>
+
+  <!-- Consulta 3: Buscar por ID -->
+  <h3>Buscar por ID</h3>
+  <form method="get" action="/autores/html">
+    <label>ID del Autor:
+      <input type="number" name="autor_id" required>
+    </label>
+    <button type="submit">Buscar</button>
+  </form>
+
+</body>
+</html>

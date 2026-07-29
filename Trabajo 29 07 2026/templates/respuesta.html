@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Resultado - Autores</title>
+</head>
+<body>
+  <h1>Resultado</h1>
+
+  <p><a href="/">Volver</a></p>
+
+  <table border="1">
+    <tr>
+      <th>ID</th>
+      <th>Nombre</th>
+      <th>Nacimiento</th>
+      <th>País</th>
+    </tr>
+    {% for a in autores %}
+    <tr>
+      <td>{{ a.id }}</td>
+      <td>{{ a.nombre }}</td>
+      <td>{{ a.nacimiento }}</td>
+      <td>{{ a.pais }}</td>
+    </tr>
+    {% else %}
+    <tr><td colspan="4">No se encontraron autores.</td></tr>
+    {% endfor %}
+  </table>
+</body>
+</html>
